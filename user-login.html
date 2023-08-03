@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Password Login project</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <main>
+  <section class="view">
+   
+   <article class="popup">
+    
+    <div class="contain">
+     
+      <img src="/JavaScript /Login/img/20230801_165735.jpg" alt="">
+     
+     <div class="login">
+      <h2>Login</h2>
+      
+     </div>
+     
+     <div class="input">
+      <form id="login-page">
+       <input type="text" name="username" id="username" placeholder="username"/>
+       <input type="password" name="passkey" id="passkey" placeholder="passkey">
+        <br>
+       <button type="submit" id="Login">Sign in</button>
+     </form>
+     </div>
+   <h5>{c_kv}</h5>
+
+    </div>
+    </article>
+  </section>
+  
+  <section class="msg">
+       
+    <article class="access">
+     <h2 class="close" onclick="close">&times;</h2>
+     
+     <div>
+      <h3>Access Granted</h3>
+     </div>
+     <div>
+      <a href="/JavaScript /Sandbox/index.html">Continue</a>
+      </div>
+    </article>
+    
+    <article class="error">
+     <h2 class="close" onclick="close">&times;</h2>
+     <div>
+      <h3>Access Denied</h3>
+     </div>
+    </article>
+    
+  </section>
+ </main>
+
+<script defer src="login.js"></script>
+</body>
+
+</html>
